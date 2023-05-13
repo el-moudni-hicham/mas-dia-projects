@@ -1,0 +1,18 @@
+.pan{
+    -fx-background-image: url("back.jpg");
+}
+.list-view .list-cell:odd {
+    -fx-text-fill: #da0d0d;
+    -fx-font-weight: bold;
+    -fx-text-alignment: right;
+    -fx-column-halignment: right;
+    -fx-tile-alignment: right;
+}
+
+.list-view .list-cell:even {
+    -fx-text-fill: #017903;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-column-halignment: right;
+    -fx-tile-alignment: right;
+}
